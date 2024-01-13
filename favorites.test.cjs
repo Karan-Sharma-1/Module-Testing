@@ -1,5 +1,7 @@
-const request = require("supertest")("https://airportgap.dev-tester.com/api");
-const { expect } = require=("chai");
+const { request, expect } = require("./config.js");
+
+// const request = require("supertest")("https://airportgap.dev-tester.com/api");
+// const { expect } = require=("chai");
 
 describe("POST /favorites", function () {
   it("requires authentication", async function () {

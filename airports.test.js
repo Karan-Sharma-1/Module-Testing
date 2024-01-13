@@ -1,5 +1,7 @@
-import request from "supertest";
-import { expect } from "chai";
+const { request, expect } = require("./config.js");
+
+// import request from "supertest";
+// import { expect } from "chai";
 
 const apiBaseUrl = "https://airportgap.dev-tester.com/api";
 const endpoint = "/airports";
